@@ -1,8 +1,6 @@
 package practice02;
 
 public class Student extends Person{
-    private int age;
-    private String name;
     private  int klass;
     public Student(String name, int age, int klass){
         super(name,age);
