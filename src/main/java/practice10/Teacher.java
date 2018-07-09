@@ -5,9 +5,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Teacher extends Person{
-    private int id;
-    private int age;
-    private String name;
     Klass klass = null;
     HashSet<Klass> classes = new HashSet<Klass>();
 
