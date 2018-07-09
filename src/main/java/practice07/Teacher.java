@@ -1,8 +1,6 @@
 package practice07;
 
 public class Teacher extends Person{
-    private int age;
-    private String name;
     Klass klass = null;
 
     public Teacher(String name, int age) {
